@@ -1,0 +1,31 @@
+﻿{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    {
+      "imgsrc": "/riding/images/detail5.jpg",
+      "title": "Honey Stinger Organic有机能量凝胶+high5 zero泡腾片refresh",
+      "t-Price":"￥200",
+      "m-Price":"￥10"
+    },
+    {
+      "imgsrc": "/riding/images/detail6.jpg",
+      "title": "Honey Stinger Organic有机能量凝胶+high5 zero泡腾片refresh",
+      "t-Price":"￥200",
+      "m-Price":"￥10"
+    },
+    {
+      "imgsrc": "/riding/images/detail7.jpg",
+      "title": "Honey Stinger Organic有机能量凝胶+high5 zero泡腾片refresh",
+      "t-Price":"￥200",
+      "m-Price":"￥10"
+    },
+    {
+      "imgsrc": "/riding/images/detail8.jpg",
+      "title": "Honey Stinger Organic有机能量凝胶+high5 zero泡腾片refresh",
+      "t-Price":"￥200",
+      "m-Price":"￥10"
+    },
+  ]
+}

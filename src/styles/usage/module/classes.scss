@@ -1,0 +1,145 @@
+.c-home {
+  @include flex(1);
+  @include flexbox();
+  @include flex-direction(column);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  
+  header {
+    // margin-bottom:25px;
+    // @include flexbox(1);
+    width:100%;
+    background: #1b1b18;
+    height: .44rem;
+    text-align: center;
+    line-height: .44rem;
+    color: #fff;
+    display: block;
+    p{
+      margin:0 auto;
+      font-size: .12rem;
+    }
+  }
+  section{
+    @include flexbox();
+    @include flex(1);
+    @include flex-direction(column);
+    width:100%;
+    // height:100%;
+    // div{
+    //   @include flexbox(1);
+    //   @include flexbox();
+    //   @include flex-direction(column);
+    //   ul{
+    //     width: 100%;
+    //     height: auto;
+    //     li{
+    //       @include flexbox();
+    //       @include flex-direction(column);
+    //       @include justify-content(center);
+    //       @include align-items(center);
+    //       position: relative;
+    //       width: 100%;
+    //       height: auto;
+    //       img{
+    //         width: 100%;
+    //         height: auto;
+    //       }
+    //       b{
+    //         position: fixed;
+    //         top:30px;
+    //         left: 40%;
+    //         display: block;
+    //         width: 20%;
+    //         height: auto;
+    //         background: red;
+    //         p{
+    //           margin:0 auto;
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
+    background: red;
+    overflow:hidden;
+    .con{
+      @include flex(1);
+      @include flexbox();
+      @include flex-direction(column);
+      width: 100%;
+      height: 100%;
+      .wra{
+        width: 100%;
+        height: 128px;
+        //line-height:128px;
+        &:nth-child(1){
+         background:url("/riding/images/lun1.jpg") no-repeat left;
+         background-size: 100% auto;
+        }
+        &:nth-child(2){
+         background:url("/riding/images/lun2.jpg") no-repeat left;
+         background-size: 100% auto;
+        }
+        &:nth-child(3){
+         background:url("/riding/images/lun3.jpg") no-repeat left;
+         background-size: 100% auto;
+        }
+        &:nth-child(4){
+         background:url("/riding/images/lun4.jpg") no-repeat left;
+         background-size: 100% auto;
+        }
+        &:nth-child(5){
+         background:url("/riding/images/lun1.jpg") no-repeat left;
+         background-size: 100% auto;
+        }
+        &:nth-child(6){
+         background:url("/riding/images/lun2.jpg") no-repeat left;
+         background-size: 100% auto;
+        }
+        &:nth-child(7){
+         background:url("/riding/images/lun3.jpg") no-repeat left;
+         background-size: 100% auto;
+        }
+        &:nth-child(8){
+         background:url("/riding/images/lun4.jpg") no-repeat left;
+         background-size: 100% auto;
+        }
+        &:nth-child(9){
+         background:url("/riding/images/lun2.jpg") no-repeat left;
+         background-size: 100% auto;
+        }
+        div{
+          @include flexbox();
+          @include flex-direction(column);
+          width:60px;
+          height:50px;
+          // line-height:25px;
+          margin:0 auto;
+          margin-top:39px;
+          background:transparent;
+          p{
+            width:auto;
+            color:#fff;
+            margin:0 auto;
+            background:transparent;
+          }
+        }
+
+        // sapn{
+        //   // @include flex(1);
+        //   // @include flexbox;
+        //   display: block;
+        //   width:50px;
+        //   height: 30px;
+        //   margin: 0 auto;
+        //   line-height: 30px;
+        //   background:yellow;
+        //   p{
+        //     maogin:0 auto;
+        //   }
+        // }
+      }
+    }
+  }
+}

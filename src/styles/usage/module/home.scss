@@ -1,0 +1,180 @@
+.m-index {
+  width: 100%;
+  height: 100%;
+  @include flexbox();
+  @include flex-direction(column);
+  .l-container {
+    @include flex(1);
+    width: 100%;
+    overflow: hidden;
+   
+    .m-home {
+      @include flexbox();
+      @include flex-direction(column);
+      height: 100%;
+      overflow: hidden;
+      > * {
+        width: 100%;
+      }
+      header {
+        background: #1b1b18;
+        height: .44rem;
+        ul {
+          @include flexbox();
+          height: 100%;
+          li {
+            height: 100%;
+            &:not(:nth-child(2)) {
+              width: .44rem;
+              text-align: center;
+              line-height: .44rem;
+              color: #fff;
+              font-size: .2rem;
+            }
+            &:nth-child(2) {
+              @include flex(1);
+              width: 100%;
+              @include flexbox();
+              @include justify-content(center);
+              @include align-items(center);
+              color: #fff;
+              ul {
+                width: 1.18rem;
+                height: .25rem;
+                @include border-radius(.1rem);
+                overflow: hidden;
+                li {
+                  width: .59rem;
+                  text-align: center;
+                  line-height: .25rem;
+                  font-size: .12rem;
+                  &.active {
+                    color: rgba(255,255,255,1);
+                    background: rgba(100,217,133,1);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      #bSlide{
+        width:100%;
+        overflow:hidden;
+        #lunBo{
+          width: 100%;
+          height: 235px;
+          overflow: hidden;
+          .swiper-wrapper{
+            width: 100%;
+            height: 100%;
+            .swiper-slide{
+              float: left;
+              width: 100%;
+              height: 100%;
+              img{
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+        }    
+        
+        nav {
+          height: .35rem;
+          background: #eee;
+          ul {
+            width: 100%;
+            height: 100%;
+            @include flexbox();
+            li {
+              @include flex(1);
+              text-align: center;
+              line-height: .35rem;
+              color: #aaa;
+              @include border(0 0 1px 0, #d9d9d9);
+              &.active {
+                color: #000;
+                background: #f5f5f5;
+              }
+            }
+          }
+        }
+
+        #home-swiper{
+          width:100%;
+          .swiper-wrapper{
+            .swiper-slide{
+              .sec {
+                @include flex(1);
+                width: 100%;
+                overflow: hidden;
+                background: #fff;
+                ul {
+                  width: 100%;
+                  margin-top: .05rem;
+                  @include flexbox();
+                  li {
+                    &:not(:nth-child(2)) {
+                      @include flex(1);
+                      @include box-sizing(border-box);
+                      @include border(1px, #d9d9d9);
+                      img {
+                        display: block;
+                        width: 100%;
+                      }
+                      b {
+                        display: block;
+                        width: 90%;
+                        margin: 0 auto;
+                        line-height: 40px;
+                        color: #000;
+                        font-weight: normal;
+                        padding: .08rem .05rem;
+                        font-size: 14px;
+                        p{
+                          @include border(1px 0 0 0, #666);
+                          display: block;
+                          width: 100%;
+                          height: auto;
+                          line-height: 30px;
+                          margin: 0 auto;
+                          padding-top:2px;
+                          @include flexbox();
+                          span{
+                            @include flex(1);
+                            line-height: 30px;
+                            &:last-child{
+                              text-align: right;
+
+                            }
+                            .yo-ico{
+                              font-size: 20px;
+                              color: #000;
+                            }
+                            img{
+                              width: .35rem;
+                              margin-top: 3px;
+                              height: auto;
+                              display: inline;
+                            }
+                          }
+                        }
+                      }
+                    }
+                    &:nth-child(2) {
+                      width: .05rem;
+                    }
+                  }
+                  &:last-child {
+                    padding-bottom: .4rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+    }
+  }
+}

@@ -1,0 +1,76 @@
+    <div class="m-home">
+      <header>
+        <ul>
+          <li class="yo-ico"></li>
+          <li>
+           	一骑买*更便宜
+          </li>
+          <li class="yo-ico">&#xe65c;</li>
+        </ul>
+      </header>
+       <div>
+            <div class="head">
+                <img src="/riding/images/arrow.png" width="40" height="40"/>
+                <span>下拉刷新...</span>
+            </div>
+          </div>
+      <div spa-widget = "scroll" data-scroll-id="homeHotScroll" id="bS-con">
+        <div id="bSlide">
+         
+          <div>
+            <div class="swiper-container" id="lunBo">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="/riding/images/lun1.jpg">
+                </div>
+                <div class="swiper-slide">
+                  <img src="/riding/images/lun2.jpg">
+                </div>
+                <div class="swiper-slide">
+                  <img src="/riding/images/lun3.jpg">
+                </div>
+                <div class="swiper-slide">
+                  <img src="/riding/images/lun4.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <nav id="xiDing">
+            <ul>
+              <li class="active" action-type="tap.slide" data-tag="home">畅销商品</li>
+              <li action-type="tap.slide">最新商品</li>
+              
+            </ul>
+          </nav>
+          <div></div>
+          <div class="swiper-container" id="home-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <section>
+                    <div>
+                      <ul ms-repeat-value="livelist">
+                        <li>
+                          <img ms-src="value[0].imgsrc" />
+                          <b><span ms-text="value[0].title"></span>
+                          	<p><span class="yo-ico" style="font-size=20px">&#xe68f;<i ms-tp="value[0].t-Price"></i></span><span class="yo-ico">&#xe68f;<i ms-mp="value[0].m-Price"></i></span></p>
+                          </b>
+                        </li>
+                        
+                      </ul>
+                    <div class="foot">
+                      <img src="/riding/images/arrow.png" width="40" height="40"/>
+                      <span>上拉加载更多...</span>
+                    </div>
+                    </div>
+                  </section>
+                </div>
+                <div class="swiper-slide">
+                  最新商品
+                </div>
+              </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
